@@ -13,7 +13,7 @@ public class ExcelTask {
 	public static void main(String[] args) throws Exception {
 		
 		XSSFWorkbook workbook1=new XSSFWorkbook();
-		XSSFSheet sheet1=workbook1.createSheet("Computer Details");
+		XSSFSheet sheet1=workbook1.createSheet("Students Details");
 		
 		sheet1.createRow(0).createCell(1).setCellValue("Name");
 		sheet1.getRow(0).createCell(2).setCellValue("University");
